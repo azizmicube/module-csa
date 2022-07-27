@@ -1,0 +1,29 @@
+{
+    "name": "icube/magento2-csa",
+    "type": "magento2-module",
+    "authors": [{
+            "name": "azizmuin",
+            "email": "aziz.muin@sirclo.com"
+        }
+    ],
+    "description": "Custome module csa",
+    "homepage": "https://github.com/icube-mage/magento2-csa/tree/master",
+    "keywords": [
+        "magento",
+        "magento2"
+    ],
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "version": "1.0.0",
+    "minimum-stability": "dev",
+    "autoload": {
+        "files": [
+            "src/module-testing/registration.php"
+        ],
+        "psr-4": {
+            "Icube\\Testing\\": "src/module-csa"
+        }
+    }
+}
