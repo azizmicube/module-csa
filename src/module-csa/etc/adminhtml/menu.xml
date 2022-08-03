@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Icube, Inc. All rights reserved.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add
+            id="Icube_Vendor::icubebysirclo"
+            title="Icube By Sirclo" 
+            module="Icube_Vendor" 
+            sortOrder="10" 
+            parent="Magento_Catalog::catalog" 
+            resource="Icube_Vendor::icubebysirclo"/>
+
+        <add
+            id="Icube_Vendor::vendor"
+            title="Vendors" 
+            module="Icube_Vendor" 
+            sortOrder="10" 
+            parent="Icube_Vendor::icubebysirclo" 
+            action="icube_vendor/vendor/" 
+            resource="Icube_Vendor::vendor"/>
+
+        <add
+            id="Icube_Vendor::product"
+            title="Products" 
+            module="Icube_Vendor" 
+            sortOrder="20" 
+            parent="Icube_Vendor::icubebysirclo" 
+            action="icube_vendor/product/" 
+            resource="Icube_Vendor::product"/>
+    </menu>
+</config>
