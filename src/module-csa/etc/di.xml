@@ -3,8 +3,8 @@
     <type name="Magento\Framework\View\Element\UiComponent\DataProvider\CollectionFactory">
         <arguments>
             <argument name="collections" xsi:type="array">
-                <item name="vendor_listing_data_source" xsi:type="string">Icube\Vendor\Model\ResourceModel\Vendor\Grid\Collection</item>
-                <item name="product_listing_data_source" xsi:type="string">Icube\Vendor\Model\ResourceModel\Product\Grid\Collection</item>
+                <item name="icube_vendor_vendor_listing_data_source" xsi:type="string">Icube\Vendor\Model\ResourceModel\Vendor\Grid\Collection</item>
+                <item name="icube_vendor_product_listing_data_source" xsi:type="string">Icube\Vendor\Model\ResourceModel\Product\Grid\Collection</item>
             </argument>
         </arguments>
     </type>

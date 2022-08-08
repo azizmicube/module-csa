@@ -1,6 +1,6 @@
 <?php
 
-namespace Icube\Vendor\Block\Adminhtml\Vendor\Action;
+namespace Icube\Vendor\Block\Adminhtml\Product\Action;
 
 use Magento\Framework\View\Element\UiComponent\Control\ButtonProviderInterface;
 

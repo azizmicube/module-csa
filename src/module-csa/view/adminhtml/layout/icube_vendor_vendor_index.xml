@@ -5,7 +5,7 @@
     <update handle="styles"/>
     <body>
         <referenceContainer name="content">
-            <uiComponent name="vendor_listing"/>
+            <uiComponent name="icube_vendor_vendor_listing"/>
         </referenceContainer>
     </body>
 </page>
